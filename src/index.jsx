@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "../styles.min.css";
 
 function Header() {
   let [expanded, setExpanded] = React.useState(false);
